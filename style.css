@@ -7,6 +7,8 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  overflow-x: hidden; /* Hide horizontal scrollbar */
+
 }
 .con {
   max-width: 1440px;
@@ -319,7 +321,7 @@ body {
     margin-top: 72px;
   }
   .keyboard_div {
-    width: 315px;
+    max-width: 315px;
     height: 425px;
   }
 }
@@ -339,13 +341,13 @@ body {
   .main_box3 {
     display: flex;
     flex-direction: column;
-    width: 375px;
+    max-width: 375px;
     align-items: center;
   }
   .main_box2 {
     display: flex;
     flex-direction: column;
-    width: 375px;
+    max-width: 375px;
   }
   .cuted_keyboard {
     display: none;
